@@ -1,0 +1,11 @@
+/*Eliminando estilo propio de los elementos de lista */
+ul{
+	list-style-type:none; 
+}
+
+/*Agregando estilo general al menú utilizando ID colocando en la etiqueta nav HTML5 */
+#all-menu{
+	width:auto;
+	height:68px;
+	background-color:#0f71ba;
+}

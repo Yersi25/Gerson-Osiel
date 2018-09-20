@@ -1,11 +1,54 @@
 /*Eliminando estilo propio de los elementos de lista */
-ul{
-	list-style-type:none; 
+ul, ol{
+	list-style-type:none;
+	margin:0;
+	padding:0;
 }
 
+/*para centrar nuestro contenedor */
+#header{
+	margin:auto; /*magen automatico */
+	width:500px; /*Ancho en pixeles */
+	font-family:Arial,Helverica,sans-serif;/*tipo de fuente */
+}
 /*Agregando estilo general al menú utilizando ID colocando en la etiqueta nav HTML5 */
 #all-menu{
 	width:auto;
 	height:68px;
 	background-color:#0f71ba;
+}
+
+#menu li a{
+	font-family:verdana;
+	font-size:15px;
+	float: left;
+	padding:24px;
+	background-color:#0f71ba;
+	color:#fff;
+	text-decoration:none;
+	height:18px;
+}
+
+#menu li a:hover{
+	background-color:#f90;
+	margin-top:2px;
+	font-weight:bold;
+}
+#menu ul a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-weight:400;
+	font-size:15px;
+	padding:10px;
+	font-family:"Arial";
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+#menu ul li{
+	position:relative;
+	float:lef;
+	margin:0;
+	padding:0;
 }

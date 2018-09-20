@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<link rel="styleheet" type="text/css" href="practica6.css">
+	
 		<title>Menu Despegable</title>
+		<link rel="styleheet" type="text/css" href="practica6.css"/>
 	</head>
+	
 	<body>
-		<nav id="all-menu"> <!--Menu de Navegacion-->
-				<ul id="menu" <!--Indica que este sera un Menu que contendr atributos osea una lista desordenada-->
+	
+	
+		<div id="header"> <!--es la cabecera osa el contenedor-->
+				<ul class="nav"> <!--Iniciar menu-->
 					<li><a href="">INICIO</a></li> <!--Hace referencia al primer item que tendra un enlace-->
 					<li><a href="">QUIENES SOMOS</a></li>	<!--segundo itemque tendra un segundo enlace-->
-					<li><a href="">SERVICIOS</a></li>	<!--tercer itemque tendra una sublista despegable-->
-					<li><a href="">CATALOGO</a></li>	<!--cuarto item que tentra una sublista despegable---->
-					<li><a href="">CONTACTO</a></li>	<!--quinto item que tendra una sublista despegable---->
+					<li><a href="">SERVICIOS</a>	<!--tercer itemque tendra una sublista despegable-->
+						<ul> <!--Iniciar menu despegable-->
+							<li><a href="">ESTAMPADOS TEXTIL</a></li>
+							<li><a href="">SUBLIMACION TEXTIL</a></li>
+							<li><a href="">PROMOCIONALES</a></li>
+							<li><a href="">DISEÑOS</a></li>
+						</ul>
+					</li>
+					<li><a href="">CATALOGO</a>	<!--cuarto item que tentra una sublista despegable---->
+						<ul> <!--Iniciar menu despegable-->
+							<li><a href="">PROMOCIONALES</a></li>
+							<li><a href="">DISEÑOS</a></li>
+						</ul>
+					</li>
+					<li><a href="">CONTACTO</a>	<!--quinto item que tendra una sublista despegable---->
+						<ul> <!--Iniciar menu despegable-->
+							<li><a href="">FACEBOOK</a></li>
+							<li><a href="">WHATSAPP</a></li>
+							<li><a href="">INSTAGRAM</a></li>
+						</ul>
+					</li>
 				</ul>
-				
-		</nav>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,26 @@
+
+NOMBRE DE LA EMPRESA: EMPRESA VELIZ
+
+PROBLEMA: HORA DE SALIDA DE BUSES
+
+DETALLE:
+AL NORTE de Guatajiagua, LA EMPRESA VELIZ de transporte publico,
+quiere llevar el control de hora de salida de la ruta 326 que se dirige de guatajiagua 
+a San Miguel.
+
+
+SOLUCION:
+Hacer una APP que registre lo siguienre
+
+	NOMBRE DEL MOTORISTA:
+
+	NOMBRE de la RUTA; 
+	
+	NUMERO DE PLACA:
+	
+	HORA DE SALIDA:
+	
+	HORA DE ENTRADA:
+	
+	FECHA:
+	

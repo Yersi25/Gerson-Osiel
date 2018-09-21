@@ -4,3 +4,8 @@
 
 - Nombre del sitio
             *Nombre de dominio -> serigrafiaysublimacionesg.com
+
+ -paleta de colores ->  122759, 46556B, 8293C2, 30B729, 366595
+ 
+ -tipografía -> Impact,Gloucester MT Extra Condenced, Futura Bk BT
+ 

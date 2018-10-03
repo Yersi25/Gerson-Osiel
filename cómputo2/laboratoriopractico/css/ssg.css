@@ -95,7 +95,9 @@ ul, ol{
 	75%{margin-left: -300%;}
 	100%{margin-left: -300%;}
 	
-	
-	
-		
 	}
+
+.nav> img{
+	width:50%;
+	height:100%;
+}
